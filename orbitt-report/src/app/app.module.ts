@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { OrbittListComponent } from './orbitt-list/orbitt-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OrbittListComponent
   ],
   imports: [
     BrowserModule
