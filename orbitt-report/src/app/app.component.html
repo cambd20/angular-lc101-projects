@@ -1,1 +1,8 @@
-<app-orbitt-list [satellites]="sourceList"></app-orbitt-list>
+<app-orbitt-list [satellites]="displayList"></app-orbitt-list>
+
+<div class="search-form">
+    <input #searchTerm (keyup.enter)="search(searchTerm.value)">
+    <button (click)="search(searchTerm.value)">Search</button>
+</div>
+
+

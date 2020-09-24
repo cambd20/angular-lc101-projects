@@ -61,8 +61,8 @@ export class AppComponent {
       if (type.indexOf(searchType) >= 0 && !matchingSatellites.includes(satellite)) {
         matchingSatellites.push(satellite)
       }
-      const orbitType = satellite.orbitType.toLowerCase()
-      if (orbitType.indexOf(searchType) >= 0 && !matchingSatellites.includes(satellite)) {
+      const orbittType = satellite.orbittType.toLowerCase()
+      if (orbittType.indexOf(searchType) >= 0 && !matchingSatellites.includes(satellite)) {
         matchingSatellites.push(satellite)
       }
       
